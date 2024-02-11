@@ -1,101 +1,133 @@
+/* 
+ * Win 11 Glass by shdwo
+ */
+
 body {
     color: #cecece;
     background-color: #1e1e1e !important;
 }
+
 .fr-box.fr-basic.is-focused .fr-element {
     color: #ffffff;
 }
+
 .p-pageWrapper {
     background-image: url("https://i.imgur.com/IQlJOzD.jpeg") !important;
 }
+
 .is-active {
     color: #fff !important;
 }
+
 .block-body {
     background: rgba(6, 6, 6, 0.15) !important;
     backdrop-filter: blur(1px);
 }
+
 .block-filterBar {
     background: rgba(6, 6, 6, 0.35) !important;
 }
+
 dt, .blockLink, .formSubmitRow-bar {
     background: rgba(6, 6, 6, 0.35) !important;
     backdrop-filter: blur(1px);
 }
+
 .structItem-title {
     color: white;
     font-weight: 600;
 }
+
 .block-container {
     background: rgba(6, 6, 6, 0.15) !important;
     backdrop-filter: blur(3.5px);
 }
+
 .structItem-cell, .structItem, .node-body {
     background: rgba(6, 6, 6, 0.15) !important;
     backdrop-filter: blur(3.5px);
 }
+
 .structItem-title {
     font-weight: 500 !important;
 }
+
 .block-header {
-    background: rgba(6, 6, 6, 0.35) !important;
+    background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .menu-content {
     padding: 5px;
     border: none;
 }
+
 .menu-linkRow:hover {
     color: white;
     background: rgb(16, 16, 16) !important;
 }
+
 .pageContent, .p-breadcrumbs {
     background: rgba(6, 6, 6, 0.30) !important;
     border: none !important;
     border-radius: 10px;
     padding: 10px 20px 10px 20px !important;
 }
+
 .p-header {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .p-body-header {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .p-nav {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .p-sectionLinks {
     background: rgba(6, 6, 6, 0.55) !important;
     border-bottom: 1px solid black;
 }
+
 .p-nav-list .p-navEl.is-selected {
     background: #828282;
 }
+
 .block-container {
     color: grey;
     background: #060606;
 }
+
 .contentRow-lesser {
     color: #8c8c8c;
 }
+
 .pairs.pairs--justified > dd {
     color: #8c8c8c;
 }
+
 .pairs.pairs--rows > dd {
     color: grey;
 }
+
 .block-header {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .block-footer {
     color: #ededed;
     background: #060606;
 }
+
 .p-footer-inner, .p-footer-copyrightRow, .shareButtons {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .shareButtons {
     border: none !important;
 }
+
 .block-Message,
 .block--messages .message,
 .block--messages .block-row,
@@ -103,15 +135,18 @@ dt, .blockLink, .formSubmitRow-bar {
     color: grey;
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .block-footer {
     color: white;
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .likesBar {
     background: darkgrey;
     border: 1px solid #47a7eb;
     border-left: 2px solid #47a7eb;
 }
+
 .message-cell, .message-content, .fr-wrapper, .message--quickReply {
     background: rgba(6, 6, 6, 0.15) !important;
 }
@@ -128,13 +163,16 @@ dt, .blockLink, .formSubmitRow-bar {
 .message-cell.message-cell--action {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .message-userArrow:after {
     border-right-color: #17171b;
 }
+
 .input {
     background: rgba(6, 6, 6, 0.35) !important;
     border: none;
 }
+
 .button.button--link,
 a.button.button--link,
 .button--cta,
@@ -143,66 +181,86 @@ a.button.button--link,
     border: 1px solid black;
     border-radius: 10px;
 }
+
 .rippleButton {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .is-selected {
     background: rgba(6, 6, 6, 0.55) !important;
 }
+
 .chat-box-smilie-button {
     padding-top: 10px;
 }
+
 .contentRow-fader {
     background: transparent;
 }
+
 .fr-box.fr-basic .fr-wrapper {
     background: #2d2d32;
 }
+
 .fr-box.fr-basic .fr-element {
     color: grey;
 }
+
 .ratingStarsRow.ratingStarsRow--justified .ratingStarsRow-text {
     color: #8c8c8c;
 }
+
 .structItem-resourceTagLine {
     color: #8c8c8c;
 }
+
 .bbCodeBlock {
     background: rgba(6, 6, 6, 0.45) !important;
     border: none;
 }
+
 .bbCodeBlock-title {
     background: rgba(6, 6, 6, 0.45) !important;
 }
+
 .bbCodeBlock-content {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
 .tooltip--member .tooltip-content {
     background: #17171b;
 }
+
 .memberTooltip-header {
     background: #265071;
 }
-/* Using dark scrollbar */
+
+/* Scrollbar Styling */
 ::-webkit-scrollbar {
     background-color: #2e2e2e;
     width: 15px;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: rgba(86, 86, 86, 0.4);
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgba(102, 102, 102, 0.4);
 }
+
 textarea::-webkit-scrollbar:vertical {
     border-left: 1px solid #3e3e3e;
 }
+
 textarea::-webkit-scrollbar-thumb:vertical {
     border-left: 1px solid #3e3e3e;
 }
+
 textarea::-webkit-scrollbar:horizontal {
     border-top: 1px solid #3e3e3e;
 }
+
 textarea::-webkit-scrollbar-thumb:horizontal {
     border-top: 1px solid #3e3e3e;
 }
