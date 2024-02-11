@@ -32,11 +32,22 @@ body {
     background: rgba(6, 6, 6, 0.35) !important;
     backdrop-filter: blur(1px);
 }
-
+    
 dt {
     background: transparent !important;
 }
 
+.tooltip-content {
+    background: rgba(6, 6, 6, 0.85) !important;
+    box-shadow: none !important;
+    color: white;
+    border: none;
+}
+    
+.tooltip--preview .tooltip-content-inner .tooltip-content-cover {
+    background: none !important;
+}
+    
 .structItem-title {
     color: white;
     font-weight: 600;
