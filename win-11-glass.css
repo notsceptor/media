@@ -2,6 +2,12 @@
  * Win 11 Glass by shdwo
  */
 
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
+* {
+    font-family: 'Inconsolata';
+}
+
 body {
     color: #cecece;
     background-color: #1e1e1e !important;
@@ -101,6 +107,10 @@ dt, .blockLink, .formSubmitRow-bar {
 
 .contentRow-lesser {
     color: #8c8c8c;
+}
+
+.ripple-container {
+    width: 0 !important;
 }
 
 .pairs.pairs--justified > dd {
