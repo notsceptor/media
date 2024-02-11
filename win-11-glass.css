@@ -28,9 +28,13 @@ body {
     background: rgba(6, 6, 6, 0.35) !important;
 }
 
-dt, .blockLink, .formSubmitRow-bar {
+.blockLink, .formSubmitRow-bar {
     background: rgba(6, 6, 6, 0.35) !important;
     backdrop-filter: blur(1px);
+}
+
+dt {
+    background: transparent !important;
 }
 
 .structItem-title {
