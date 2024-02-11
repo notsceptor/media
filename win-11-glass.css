@@ -178,6 +178,15 @@ dt {
 .message-cell, .message-content, .message--quickReply {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+
+.node--unread .node-icon i::before {
+    color: #db5b5be3 !important;        
+}
+    
+.uix_newIndicator {
+    background: #db5b5be3 !important;
+    color: black !important;
+}
     
 .fr-wrapper, .fr-toolbar {
     background: rgba(6, 6, 6, 1) !important;
