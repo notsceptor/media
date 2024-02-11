@@ -65,6 +65,11 @@ dt, .blockLink, .formSubmitRow-bar {
 .menu-content {
     padding: 5px;
     border: none;
+    background: rgb(16, 16, 16) !important;
+}
+    
+.menu-tabHeader, .menu-row, .menu-footer {
+    background: rgb(16, 16, 16) !important;     
 }
 
 .menu-linkRow:hover {
@@ -89,6 +94,10 @@ dt, .blockLink, .formSubmitRow-bar {
 
 .p-nav {
     background: rgba(6, 6, 6, 0.15) !important;
+}
+    
+.is-sticky {
+    background: rgb(10, 10, 10) !important;
 }
 
 .p-sectionLinks {
@@ -157,8 +166,35 @@ dt, .blockLink, .formSubmitRow-bar {
     border-left: 2px solid #47a7eb;
 }
 
-.message-cell, .message-content, .fr-wrapper, .message--quickReply {
+.message-cell, .message-content, .message--quickReply {
     background: rgba(6, 6, 6, 0.15) !important;
+}
+    
+.fr-wrapper, .fr-toolbar {
+    background: rgba(6, 6, 6, 1) !important;
+}
+    
+.blockStatus {
+    background: rgba(6, 6, 6, 1) !important;
+    border: none !important;
+}
+    
+.memberOverviewBlock-seeMore {
+    background: rgba(6, 6, 6, 1) !important;
+    border: none !important;
+    color: white !important;
+}
+    
+.memberOverviewBlock-seeMore > a {
+    color: white !important;
+}
+
+.bbCodeBlock-expandLink {
+    background: linear-gradient(to bottom, rgba(66,70,77,0) 0%, #0808088a 60%) !important;
+}
+    
+.bbCodeBlock-expandLink > a {
+    color: #c5c5c5 !important;        
 }
 
 .is-focused {
@@ -195,9 +231,18 @@ a.button.button--link,
 .rippleButton {
     background: rgba(6, 6, 6, 0.15) !important;
 }
+    
+.tabs-tab.is-active {
+    border-bottom: 1px solid white !important        
+}
+    
+.tabs-tab:hover,.p-navEl:hover {
+    color: white !important;
+}
 
 .is-selected {
     background: rgba(6, 6, 6, 0.55) !important;
+    color: white !important;
 }
 
 .chat-box-smilie-button {
